@@ -5,6 +5,12 @@
   height: 300px;
   margin-bottom: 20px;
 }
+/*
+Inline-Elemente werden in einer Zeile dargestellt.
+Mit display: block erzeugt jedes Element seine eigene Zeile.
+Jedes der Elemente nimmt die gesamte Breite ein.
+Aus Inline-Elemente haben wir Block-Elemente gemacht. D.h Man kann width und height festlegen.
+*/
 
 .test2 {
   display: inline;
@@ -13,6 +19,9 @@
   background: #0F0;
   margin-bottom: 20px;
 }
+/*
+
+*/
 
 .test3 {
   width: 300px;
@@ -22,3 +31,11 @@
   color: #FFF;
   display: inline-block;
 }
+
+/*
+Block-Elmente die inline dargestellt werden.
+Blockelemente werden in einer Zeile dargestellt.
+Die Bock-Elemente haben immer noch ihre Block-Eigenschaften.
+Inline-Elemente werden so lange in einer Zeile angereicht,
+bis die Zeile voll ist.
+*/

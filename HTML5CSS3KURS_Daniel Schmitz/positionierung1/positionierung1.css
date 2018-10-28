@@ -6,6 +6,11 @@
   top: 120px;
   left: 200px;
 }
+/*
+Bei Position relative wird das Element an seiner eigenen Pisition ausgerichtet.
+Anhand der Position wo sich das Div befindet wird sich das Div ausgerichtet.
+Das Div positioniert sich relativ zu seiner eigentlichen Position.
+*/
 
 #absolutesDIV {
   width: 50px;
@@ -15,6 +20,16 @@
   top: 100px;
   right: 200px;
 }
+
+/*
+Die Regel ist, das ein absolutes Element sich in einem relativen Element befinden muss.
+Das absolute DIV richtet sich an der Position des äusseren relativen DIVs.
+
+Man kann einem Elment auch Position absolut zuweisen auch wenn aussen herum
+dich kein Container befindet, der Position relative hat.
+  Wenn es kein solcher relativ-positioniertes Vorfahren-Element gibt dann ist der Bezugspunkt
+  das Wurzel-Element. 
+ */
 
 
 span {
